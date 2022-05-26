@@ -15,7 +15,7 @@
   
 ## JOIN MILLIE WHATSAPP GROUP
 
-  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png?size=1)](https://chat.whatsapp.com/BcOf8vB5KAlFQhb3c5d06b)
+  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png?size=1)](https://chat.whatsapp.com/L0CyNsIyf5F20cgXRAkWNr)
  
 ## Yotube Tutorial If You have any doubts 
   

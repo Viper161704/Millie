@@ -166,8 +166,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ╭━━━━━━ᆫ ᴍᴇɴᴜ ᄀ━━━━━━
 ┃ ⎆  Oi ${ucapan()}
 ┃ ⎆  *NAME* : ${name}
-┃ ⎆  *BOT*   : ᴍɪʟʟɪᴇ
-┃ ⎆  *OWNER* :  ɴᴇᴇʀᴀᴊ
+┃ ⎆  *BOT*   : 𝛻𝛪𝛲𝛯𝑅 𝑆𝛯𝑅
+┃ ⎆  *OWNER* :  ᴀᴅᴀʀsʜ
 ┃ ⎆  *PREFIX* : ᴍᴜʟᴛɪ ᴘʀᴇғɪx 
 ┃ ⎆  *WEEK* : ${week},
 ┃ ⎆  *DATE* : ${date},
@@ -181,7 +181,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             {
               "rows": [
                 {
-                  "title": `ᴍɪʟʟɪᴇ`,
+                  "title": `𝛻𝛪𝛲𝛯𝑅 𝑆𝛯𝑅`,
                   "description": "sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ",
                   "rowId": ".git"
                 }, {
@@ -349,15 +349,15 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonImg(m.chat, await (await fetch("https://raw.githubusercontent.com/Neeraj-x0/Millie/main/Millie/mills.jpeg")).buffer(), text.trim(), '© ᴍɪʟʟɪᴇ ©', 'Owner Bot', '.owner', 'All Commands', '.listt', m)
+    await conn.send2ButtonImg(m.chat, await (await fetch("https://i.imgur.com/FQVcgaW.jpeg")).buffer(), text.trim(), '© 𝛻𝛪𝛲𝛯𝑅 𝑆𝛯𝑅 ©', 'Owner Bot', '.owner', 'All Commands', '.listt', m)
   } catch (e) {
     conn.reply(m.chat, 'Sorry, Try Again', m)
     throw e
   }
 }
-handler.help = ['menu', 'help','list','millie', '?']
+handler.help = ['menu', 'help','list','viper', '?']
 handler.tags = ['main']
-handler.command = /^(list|menu|help|millie|bot|\?)$/i
+handler.command = /^(list|menu|help|viper|bot|\?)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false

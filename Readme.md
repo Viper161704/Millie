@@ -1,5 +1,5 @@
 
-# *Millie Whatsapp Bot*
+# *VIPER Whatsapp Bot*
 <div align="center">
   
   [![Viper Whatsapp Bot](https://readme-typing-svg.herokuapp.com?font=times-bold-italic&color=%23F7F7F7&duration=4862&center=true&vCenter=true&lines=WELCOME+TO+VIPER+WHATSAPP+BOT)](https://github.com/viper161704/Millie)

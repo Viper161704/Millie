@@ -8,7 +8,7 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
 	let json = await (await fetch(`https://yt-downloader.akkun3704.repl.co/yt?url=${args[0]}`)).json()
 	let res = await (await fetch(dl_link)).buffer()
 	let isLimit = (isPrems || isOwner ? 99 : limit) * 1000000 < res.length
-  conn.reply(m.chat,'ᴜᴘʟᴏᴀᴅɪɴɢ....', m)
+  conn.reply(m.chat,'𝛻𝛪𝛲𝛯𝑅 𝑆𝛯𝑅....', m)
 	if (!isLimit) conn.sendMessage(m.chat, res, chat.useDocument ? 'documentMessage' : 'audioMessage', { quoted: m, filename: json.result.videoDetails.title + '.mp3', mimetype: 'audio/mp4' })
 }
 handler.help = ['mp3', 'a'].map(v => 'yt' + v)

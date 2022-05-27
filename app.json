@@ -1,8 +1,8 @@
 {
-"name": "Millie",
+"name": "VipeR",
   "description": "Lightweight WhatsApp Bot",
-  "repository": "https://github.com/Neeraj-x0/Millie",
-  "logo": "https://i.imgur.com/Pf1Wynm.png",
+  "repository": "https://github.com/Adarsh161704/Millie",
+  "logo": "https://i.imgur.com/FQVcgaW.jpeg",
   "keywords": ["bot", "whatsapp", "whatsapp-bot"],
 
     "buildpacks": [
